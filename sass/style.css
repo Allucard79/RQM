@@ -1,1 +1,77 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px&subset=latin-ext");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Slabo 27px', serif;
+  color: aliceblue;
+}
+
+.container {
+  width: 1200px;
+  background-color: #55ACEE;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  padding: 30px;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 22px;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+.buttons button {
+  margin: 0 auto;
+  padding: 3px;
+  width: 300px;
+  background-color: #55ACEE;
+  border: 1px white solid;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: #55ACEE;
+}
+
+.buttons a {
+  margin: 20px auto;
+  width: 300px;
+  background-color: #55ACEE;
+  border: 1px white solid;
+  border-radius: 5px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.buttons a:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: #55ACEE;
+}
+/*# sourceMappingURL=style.css.map */
